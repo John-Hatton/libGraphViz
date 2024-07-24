@@ -1,0 +1,5 @@
+file(GLOB_RECURSE SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+
+add_library(Graph STATIC
+        ${SOURCE_FILES}
+)
